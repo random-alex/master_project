@@ -1,2 +1,2 @@
 # master_project
-Computer modeling; superconductivity 
+Computer modeling; superconductivity ; Hubbard model
