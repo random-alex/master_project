@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ALPS.xsl"?>
+<SIMULATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.comp-phys.org/2002/10/ALPS.xsd">
+  <PARAMETERS>
+    <PARAMETER name="local_S">0.5</PARAMETER>
+    <PARAMETER name="THERMALIZATION">1000</PARAMETER>
+    <PARAMETER name="MEASURE[Correlations]">True</PARAMETER>
+    <PARAMETER name="T">1.0</PARAMETER>
+    <PARAMETER name="SWEEPS">10000</PARAMETER>
+    <PARAMETER name="SEED">1</PARAMETER>
+    <PARAMETER name="MODEL">spin</PARAMETER>
+    <PARAMETER name="J">1</PARAMETER>
+    <PARAMETER name="MEASURE[Structure Factor]">True</PARAMETER>
+    <PARAMETER name="L">10</PARAMETER>
+    <PARAMETER name="h">0</PARAMETER>
+    <PARAMETER name="LATTICE">square lattice</PARAMETER>
+  </PARAMETERS>
+  <MCRUN>
+    <EXECUTED phase="equilibrating">
+      <FROM>2017-Dec-13 15:38:12</FROM>
+      <TO>2017-Dec-13 15:38:12</TO>
+      <MACHINE><NAME>alex-HP</NAME></MACHINE>
+    </EXECUTED>
+    <EXECUTED phase="running">
+      <FROM>2017-Dec-13 15:38:12</FROM>
+      <TO>2017-Dec-13 15:39:14</TO>
+      <MACHINE><NAME>alex-HP</NAME></MACHINE>
+    </EXECUTED>
+    <CHECKPOINT format="osiris" file="parm_temp_loop.task10.out.run1"/>
+    <CHECKPOINT format="hdf5" file="parm_temp_loop.task10.out.run1.h5"/>
+  </MCRUN>
+</SIMULATION>
