@@ -2,7 +2,9 @@
 
 # prereq ------------------------------------------------------------------
 library(rhdf5)
-dir <- 'C:/Users/ZotovAV/Desktop/study/dip/Square model temperature loop/data/'
+require(plotly)
+require(tidyverse)
+dir <- 'models/data/'
 
 
 # functions ---------------------------------------------------------------
